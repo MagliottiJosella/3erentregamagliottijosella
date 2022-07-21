@@ -1,0 +1,33 @@
+.headercontacto{
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   background-image: $fondoportada;
+   background-size:cover;
+   background-repeat: no-repeat;
+   height: 200px;
+    
+}
+
+
+
+
+
+.infocontacto{
+    display: flex;
+    flex-direction:column;
+    background-color:$colordefondo ;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    h4{
+        text-align: center;
+        font-size: 15px;
+        padding: 20px;
+        
+    }
+
+}
+
