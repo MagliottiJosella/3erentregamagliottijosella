@@ -4,8 +4,9 @@ $estilobtn:(
       radioboton: 5px,
       colorletra:$colorletraboton,
       margen:10px,
+      tamanioletra:600,
+      );
       
-);
 @mixin botonmedida($anchoportada,$largoportada) {
     width: $largoportada;
     height: $anchoportada;
@@ -19,6 +20,8 @@ $estilobtn:(
     background-color: map-get($estilobtn , colordefondo );
     @include botonmedida(40px,150px);
     margin: map-get($estilobtn ,margen);
+    font-weight: map-get($estilobtn , tamanioletra ) ;
+    &:hover {background-color: #de995e; }
    
 
 

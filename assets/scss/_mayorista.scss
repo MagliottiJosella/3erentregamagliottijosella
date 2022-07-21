@@ -1,26 +1,8 @@
-.headermayorista{   
 
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
-    background-color: $colordefondo;
-    height: 200px;
-    padding-top:50px ;
-    
-    h1{
-        background-image: $fondoportada;
-        background-size:contain;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        font-size: 40px;
-        font-style: oblique;
-        padding-top: 20px;
-    }
-
+.headermayorista{
+    @extend .cajaPortada;
+    font-size: 25px;
 }
-
 
 
 .Bloquecondiciones{

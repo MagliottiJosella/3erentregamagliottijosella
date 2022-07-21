@@ -1,17 +1,7 @@
 .headercontacto{
-
-   display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center;
-   background-image: $fondoportada;
-   background-size:cover;
-   background-repeat: no-repeat;
-   height: 200px;
-    
+    @extend .cajaPortada;
+    font-size: 25px;
 }
-
-
 
 
 
