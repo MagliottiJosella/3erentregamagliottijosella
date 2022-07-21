@@ -6,10 +6,13 @@
 
 
 .mainnosotros{
+    display: flex;
+    flex-direction: column;
     background-color: $colordefondo;
     background-size:contain;
     width: 100%;  
     justify-content: center;
+    align-items: center;
   
 
     p{
@@ -25,22 +28,23 @@
         margin-top: 20px;
         margin-block-end: 20px;
         padding-right: 20px;
+        
       
     
     }  
+    .parrafo{
+        margin:0%;
+        font-size: 15px;
+        padding-block-end: 200px;
+        text-align: center;
+       
+    
+    }
+    
+    
 
 }
 
-
-/* este parrafo no sabia como agregarlo dentro del mainnosotros, de todos modos no me toma el estilo que le ponog. No encuentro el error*/
-.parrafo{
-    margin:0%;
-    font-size: 15px;
-    padding-block-end: 200px;
-    text-align: center;
-   
-
-}
 
 
 

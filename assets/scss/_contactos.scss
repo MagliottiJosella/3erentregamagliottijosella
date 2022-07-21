@@ -18,6 +18,23 @@
         padding: 20px;
         
     }
+    .tabla{
+        background-image:$fondoportada;
+      
+       .datos{
+        font-size: 30px;
+        color: rgb(249, 249, 249);
+        text-shadow: 1px 1px 2px rgba(153, 48, 158, 0.364), 0 0 25px rgb(210, 146, 85), 0 0 5px rgb(227, 156, 70);
+    
+       }
+    }
+    .botontabla{
+        width: 100px;
+        height: 40px;
+        padding: 5px;
+        &:hover {background-color: #de995e; };
+        background-color:rgb(248, 212, 162);
+    }
 
 }
 
